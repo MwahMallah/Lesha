@@ -1,0 +1,74 @@
+.figure {
+    position: relative;
+    width: 100%;
+    height: 80%;
+    /* background-image: url("img/Figure1.png"); */
+    background-size: cover;
+    background: linear-gradient(to top, 
+                      var(--background) 5%,
+                    var(--gray) 5%);
+    /* background-attachment: fixed; */
+    /* Center the background image */
+    background-position: center center;
+    overflow: hidden; 
+}
+
+.background-img img {
+    object-position: 0px -80px;
+    object-fit: cover;
+    width: 100%; /* Set the width to cover the entire container */
+    height: 100%;
+}
+
+.sign {
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    font-size: 32px;
+    top: 44%;
+    color: white;
+    background-color: red;
+    height: 7%;
+    width: 100%;
+    transition-duration: 0.4s;
+    cursor: pointer;
+}
+
+.sign:hover {
+    font-size: 44px;
+}
+
+.circle {
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    top: 21.5%;
+    left: 43.5%;
+    background-color: var(--gray);
+    height: 12%;
+    width: 12%;
+    border-radius: 50%;
+    transition-duration: 1s;
+}
+
+.circle img {
+    position: relative;
+    top: -15px;
+    transition-duration: 1s;
+}
+
+.circle:hover {
+    cursor: pointer;
+    top: 20%;
+    left: 42%;
+    height: 15%;
+    width: 15%;
+    background-color: red;
+}
+
+.circle:hover img {
+    top: -25px;
+}
+

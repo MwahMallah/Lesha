@@ -1,0 +1,21 @@
+.qr {
+    position: relative;
+    width: 100%;
+    height: 80%;
+    /* background-image: url("img/Figure1.png"); */
+    background-size: cover;
+    background: linear-gradient(to top, 
+                      var(--background) 5%,
+                    var(--gray) 5%);
+    /* background-attachment: fixed; */
+    /* Center the background image */
+    background-position: center center;
+    overflow: hidden; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+img {
+    margin-bottom: 30px;
+}
